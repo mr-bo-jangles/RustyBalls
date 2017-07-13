@@ -1,0 +1,11 @@
+[package]
+name = "rusty_balls"
+version = "0.1.0"
+authors = ["mr-bo-jangles <giggaflop@gmail.com>"]
+
+[dependencies]
+irc = "0.12.3"
+regex = "0.2"
+rand = "0.3"
+serde = "1.0.8"
+serde_json = "1.0.2"
