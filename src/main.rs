@@ -139,6 +139,22 @@ fn main() {
 
 //    load_last_seen(last_seen_hash);
 
+    while true {
+        let message = server.poll();
+        match message {
+            None => ( break ),
+            Some(T) => {
+
+            },
+            Ok(T) => {
+
+            },
+            Err(E) => {
+                println!("{:?}",E)
+            }
+        }
+    }
+
     server.for_each_incoming(|message| {
         // Do message processing.
         match message.command {
